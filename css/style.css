@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("components/btn-rouge.css");
+@import url("components/sneaky-button.css");
+@import url("components/end-banner.css");
+@import url("components/store-badges.css");
+@import url("components/end-container.css");
+@import url("components/banner.css");
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+a {
+	text-decoration: none;
+}
+body {
+	font-family: Times, serif;
+	font-size: 20px;
+}
+h1,h2,h3 {
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+}
+#find{
+	width: 900px;
+	margin: 40px auto;
+}
+#banner-btn{
+	margin-top: 50px;
+}
+#main-card{
+	width: 900px;
+	margin: 40px auto;
+}
+@media(max-width: 720px){
+	#container{
+		width: 500px;
+	}
+}
+@media(max-width:  960px){
+	#container{
+		width: 700;
+	}
+}
+@media(max-width: 540px){
+	#container{
+		width: 300px;
+	}
+}

@@ -1,0 +1,14 @@
+.btn-rouge{
+	background-color: darkred;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	transition: 0.3s;
+	font-family: "Roboto", sans-serif;;
+}
+.btn-rouge:hover{
+	background-color: greenyellow;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
